@@ -1,0 +1,20 @@
+{
+  "name": "akozyr/distance-console-tool",
+  "description": "This is test tool to calculate distance using Google API",
+  "require": {
+    "symfony/console": "*",
+    "symfony/yaml": "*",
+    "guzzlehttp/guzzle": "*"
+  },
+  "require-dev": {
+    "phpmd/phpmd": "@stable",
+    "phpunit/phpunit": "*",
+    "squizlabs/php_codesniffer": "@stable",
+    "phpstan/phpstan": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "Akozyr\\Distance\\": "src"
+    }
+  }
+}
